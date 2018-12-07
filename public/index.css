@@ -1,0 +1,29 @@
+.form{
+    background: rgb(142, 148, 159);
+    padding: 40px;
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 600px;
+}
+.form div, .form input, .form button{
+    padding: 10px;
+}
+.dark, .light{
+    padding: 40px;
+    background: rgb(40, 44, 52);
+    border-radius: 2px;
+    color: #ffffff;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.light{
+    background: rgb(181, 185, 192);
+    color: rgb(40, 44, 52);
+}
+.dark h4, .light h4{
+    margin: 6px
+}
